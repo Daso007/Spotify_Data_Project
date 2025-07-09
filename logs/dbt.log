@@ -1,0 +1,29 @@
+[0m20:43:37.199035 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D14E033E00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1503FBD90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1503FB9D0>]}
+
+
+============================== 20:43:37.205085 | 735e7da3-e16b-4ebb-90d9-5ac06ed7556e ==============================
+[0m20:43:37.205085 [info ] [MainThread]: Running with dbt=1.10.3
+[0m20:43:37.206451 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\dibya\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m20:43:58.741303 [debug] [MainThread]: Starter project path: c:\Users\dibya\spotify_analytics_project\.venv\Lib\site-packages\dbt\include\starter_project
+[0m20:43:58.797680 [info ] [MainThread]: 
+Your new dbt project "spotify_dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:43:58.798932 [info ] [MainThread]: Setting up your profile.
+[0m08:46:15.941998 [info ] [MainThread]: Profile spotify_dbt_project written to C:\Users\dibya\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m08:46:15.995826 [debug] [MainThread]: Command `dbt init` succeeded at 08:46:15.994512 after 43362.44 seconds
+[0m08:46:16.004680 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D172F58E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D1504C85F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D172EFD590>]}
+[0m08:46:16.009844 [debug] [MainThread]: Flushing usage events
+[0m08:46:17.216541 [debug] [MainThread]: An error was encountered while trying to flush usage events

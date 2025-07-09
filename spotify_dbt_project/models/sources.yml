@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: spotify_raw_data
+    schema: spotify_data
+    tables:
+      - name: top_songs
