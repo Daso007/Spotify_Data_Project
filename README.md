@@ -14,6 +14,7 @@ A live, interactive dashboard visualizing the final data can be viewed here:
 ---
 
 ## Technical Architecture
+https://flic.kr/ps/46vY3J
 
 This project uses a modern data stack to process the data.
 
